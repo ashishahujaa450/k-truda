@@ -1,0 +1,2094 @@
+/*=======================================
+Devices wise Css
+=========================================*/
+
+
+@media only screen and (min-width: 767px){
+	.expanding-mobile-only{
+		display: none;
+	}
+
+	.expanding-desktop-only{
+		display: block;
+	}
+
+	.dis-fix{
+		display: none;
+	}
+
+	.top-header{ 
+		padding: .2rem 0; 
+	} 
+
+	.chart_right_sec{
+		max-width: 550px;
+	}
+
+	.top-header{
+		padding: .2rem 0;
+	}
+
+	.custom-list-group li.list-group-item img{
+		    max-width: 30px;
+    		max-height: 30px;
+	}
+
+	.chart_sec{
+
+	}
+
+	.keytruda-experience .page-lead strong{
+		display: block;
+	} 
+ 
+	
+
+	.top-header{
+		padding: .7rem 0;
+	}
+
+	.efficacy .container.draw-white > .row,
+	.keytruda-experience .container.draw-white > .row,
+	.safety .container.draw-white > .row,
+	.dosing .container.draw-white > .row,
+	.merck-care .container.draw-white > .row
+	{
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+
+	.custom-list-group li.list-group-item img.watch_icon_desktop{
+		max-width: 22px;
+	}
+	
+	.custom-list-group li.list-group-item button img,
+	.custom-list-group li.list-group-item a img{
+		max-width: 19px;
+	}
+	
+	
+	.custom-list-group li.list-group-item span{
+		    line-height: 1.4;
+	}
+	
+	.study_service_content p{
+		font-size: 17px;
+	}
+
+	.baseline-section .content-left p.page-lead,
+	.adverse-event .secondary-page-header,
+	.adverse-event .service-block p,
+	.recommended-dose .service-block p,
+	.custom-listing li,
+	.program_services_sec p.text-second,
+	.program_services_sec p.service_text,
+	.program_services_sec .secondary-page-header,
+	.custom-list-group .list-group-item,
+	.adver_event p,
+	.page-common-section .common-text,
+	.progression-section .content_left_mobile p{
+		font-size: 20px;
+	}
+
+	.top-header{ 
+		padding: .2rem 0; 
+	} 
+} 
+
+@media only screen and (max-width: 769px){ 
+	.program_services_sec .download_now_btn { 
+	    display: -webkit-box; 
+	    display: -ms-flexbox; 
+	    display: flex; 
+	    -webkit-box-pack: center; 
+	        -ms-flex-pack: center; 
+	            justify-content: center; 
+	    max-width: 250px; 
+	    margin-left: auto; 
+	    margin-right: auto; 
+	} 
+} 
+ 
+@media (min-width: 769px){ 
+	/* .banner_box{ 
+		width: 110%; 
+	} */ 
+
+	.oncology-section .container.draw-green::after{ 
+		    height: 119px; 
+	} 
+
+
+	 
+	.custom-list-group .list-group-item{ 
+	    display: -webkit-box; 
+	    display: -ms-flexbox; 
+	    display: flex; 
+		-webkit-box-align: center; 
+		    -ms-flex-align: center; 
+		        align-items: center; 
+	} 
+ 
+	.custom-list-group .list-group-item:last-child{ 
+		-webkit-box-orient: vertical; 
+		-webkit-box-direction: normal; 
+		    -ms-flex-direction: column; 
+		        flex-direction: column; 
+		-webkit-box-align: start; 
+		    -ms-flex-align: start; 
+		        align-items: flex-start; 
+	} 
+ 
+	.back-effect::before{ 
+		display: none; 
+	} 
+ 
+	.keytruda-experience{ 
+	    background-position: top center; 
+	} 
+ 
+	.efficacy .container.draw-white > .row, 
+	.keytruda-experience .container.draw-white > .row, 
+	.safety .container.draw-white > .row, 
+	.dosing .container.draw-white > .row, 
+	.merck-care .container.draw-white > .row 
+	{ 
+		-webkit-box-align: center; 
+		    -ms-flex-align: center; 
+		        align-items: center; 
+	} 
+} 
+ 
+@media (min-width: 1200px){ 
+	
+	.chart_download{
+		max-width: 524px;
+		float: left;	
+	}
+
+	.chart_download a.zoom-btn > img{
+		top: 1px;
+	}
+	
+
+	.container{ 
+	max-width: 1180px !important; 
+	} 
+
+	.chart_right_sec { 
+	    width: 100%; 
+		position: relative; 
+	} 
+ 
+	.overall_chart_sec .chart_right_sec{ 
+	    max-width: 524px; 
+	} 
+ 
+	ul.chart_bottom_list:before{ 
+		    width: 90.2%; 
+	} 
+ 
+	.overall_chart_sec ul.chart_left_list{ 
+		padding-right: 0; 
+	} 
+ 
+	.overall_chart_sec .chart_green_img, .overall_chart_sec .chart_plat_img{ 
+		max-width: 463px; 
+	} 
+
+	ul.custom-nav li.nav-item{ 
+		padding: 0rem 1rem; 
+	} 
+ 
+	ul.custom-nav li.nav-item:last-of-type{ 
+		padding-right: 0; 
+	} 
+ 
+	.section-content-holder .content-left h2{ 
+		font-size: 40px; 
+	} 
+ 
+	.merck-care .content-left p.page-lead{ 
+		max-width: 750px; 
+	} 
+ 
+	.container.draw-white .pulsating-circle{ 
+		top: 20px; 
+	} 
+ 
+	section.keytruda-experience .container.draw-white::before{ 
+		height: 88%; 
+	} 
+ 
+	.baseline-section .section-content-holder .content-left h2{ 
+		font-size: 32px; 
+	} 
+ 
+	.py-100-fixer{ 
+		padding-top: 100px !important; 
+		padding-bottom: 100px !important;  
+	} 
+ 
+ 
+ 
+	.main_service_div, .study_service_content p, .response_detail_list ul { 
+    	margin-bottom: 0px; 
+	} 
+ 
+	.efficacy .content-left p.page-lead, 
+	.keytruda-experience .content-left p.page-lead, 
+	.safety .content-left p.page-lead, 
+	.dosing .content-left p.page-lead, 
+	.merck-care .content-left p.page-lead{ 
+		font-size: 20px; 
+	} 
+ 
+	.efficacy .banner-section-listing li a, 
+	.keytruda-experience .banner-section-listing li a, 
+	.safety .banner-section-listing li a, 
+	.dosing .banner-section-listing li a, 
+	.merck-care .banner-section-listing li a{ 
+		font-size: 18px; 
+	} 
+}
+
+@media only screen and (max-width: 769px){
+	.program_services_sec .download_now_btn {
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	    max-width: 250px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
+
+
+/* changes starts here */
+
+/* @media (min-width: 769px){
+	.banner_box{
+		width: 110%;
+	}
+
+	.back-effect::before{
+		display: none;
+	}
+}
+ */
+/* @media (min-width: 1200px){
+	.container{
+		max-width: 1180px !important;
+	}
+
+	ul.custom-nav li.nav-item{
+		padding: 0rem 1.5rem;
+	}
+
+	ul.custom-nav li.nav-item:last-of-type{
+		padding-right: 0;
+	}
+
+	.section-content-holder .content-left h2{
+		font-size: 50px;
+	}
+
+	.merck-care .content-left p.page-lead{
+		max-width: 750px;
+	}
+
+	.container.draw-white .pulsating-circle{
+		top: 20px;
+	}
+
+	section.keytruda-experience .container.draw-white::before{
+		height: 88%;
+	}
+
+	.baseline-section .section-content-holder .content-left h2{
+		font-size: 32px;
+	}
+
+	section.page-common-section > .container.py-5{
+		padding-top: 100px !important;
+		padding-bottom: 100px !important; 
+	}
+
+	.efficacy .content-left p.page-lead,
+	.keytruda-experience .content-left p.page-lead,
+	.safety .content-left p.page-lead,
+	.dosing .content-left p.page-lead,
+	.merck-care .content-left p.page-lead{
+		font-size: 20px;
+	}
+
+	.efficacy .banner-section-listing li a,
+	.keytruda-experience .banner-section-listing li a,
+	.safety .banner-section-listing li a,
+	.dosing .banner-section-listing li a,
+	.merck-care .banner-section-listing li a{
+		font-size: 18px;
+	}	
+} */
+
+/* changes ends here */
+
+
+@media only screen and (max-width: 767px){
+	.extra_spacing_span{padding-right:10px;}
+
+	.expanding-mobile-only{
+		display: flex;
+	}
+
+	.expanding-desktop-only{
+		display: none;
+	}
+
+	section.page-common-section.adverse-event .content_left_mobile {
+	    padding-left: 45px;
+	}
+
+	.refre_div ul.logo_list li + li{
+		margin-top:  10px;
+	}
+
+	.adverse-event table.custom-table tbody tr:nth-of-type(odd) td{
+		white-space: nowrap;
+	}
+
+	ul.chart_bottom_list li:nth-child(2) {
+		margin-left: 15px !important;
+	  }
+}
+
+@media (max-width: 769px) and (min-width: 767px){
+	header .navigation > .container{
+	
+		    padding-left: 1.1rem;
+		
+		    max-width: 768px;
+	}
+
+	.navbar-expand-md .navbar-nav{
+		overflow-y: scroll;
+	}
+
+	.custom-nav li.nav-item a.nav-link{
+		white-space: nowrap;
+	}
+}
+
+
+@media only screen and (min-width: 1200px){
+	.adverse-event .modal-lg{
+		max-width: 1000px;
+	}
+}
+
+@media only screen and (min-width: 992px){
+	.number_box{
+		    display: table;
+	}
+}
+
+@media only screen and (max-width: 992px){
+	.background-properties{
+		background-size: cover;
+		background-position: center center;
+	}
+	.number_box table tr.number_at_risk_row1{
+		grid-template-columns: 87px 55px 56px 56px 62px 64px 61px 63px auto;
+	}
+	.number_box table tr.number_at_risk_row2{
+		grid-template-columns: 87px 55px 56px 56px 62px 64px 61px 63px auto;
+	}
+}
+@media (max-width: 769px){
+	.overall-servival .chart_download {	    
+	   /*  right: 0; */
+	}
+
+	button.mobile_scroll_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: -webkit-linear-gradient(177.64deg, rgba(13, 34, 64, 0.6) 9.22%, rgba(13, 34, 64, 0.3) 148%);
+    background: -o-linear-gradient(177.64deg, rgba(13, 34, 64, 0.6) 9.22%, rgba(13, 34, 64, 0.3) 148%);
+    background: linear-gradient(272.36deg, rgba(13, 34, 64, 0.6) 9.22%, rgba(13, 34, 64, 0.3) 148%);
+    border: none;
+    height: 100%;
+    width: 22px;
+	}
+	button.mobile_scroll_btn:focus {
+		outline:none;
+	}
+}
+
+
+
+@media only screen and (max-width: 992px){
+	.subheading-section .risk_of_death_sec .subheading-left-section p.text-lighter:last-of-type{
+		    margin-bottom: 1rem;
+	}
+}
+
+@media only screen and (min-width: 767px){
+	.d-m-none{
+		display: block !important;
+	}
+
+	.plat_pem_sec.d-m-none{
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+
+	.d-m-block{
+		display: none !important;
+	}
+
+	.subheading-section-container{
+		padding: 40px;
+		border-radius: 30px;
+		background: rgba(255, 255, 255, 0.4);
+	}
+}
+
+
+/* all devices below 768 (tablets & ipad) */
+@media (max-width: 767px){
+
+	button.mobile_scroll_btn{
+		display: block;
+	}
+
+	.footer-listing-mobile-setting a.button-primary{
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	    justify-content: center;
+	    max-width: 250px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	
+	.number_box{
+		overflow-y: initial;
+    display: table;
+	}
+	
+
+	.custom-zoom-modal .close{ 
+		top: -45px; 
+	    right:0 
+	} 
+
+	.scroller-fixed-height{ 
+	  top: calc(50vh - 25px); 
+	}
+
+	.circle:after, .circle1:after, .circle3:after, .circle4:after, .circle5:after, .circle6:after, .circle7:after, .circle8:after, .circle9:after, .circle10:after{ 
+		    width: 98px; 
+    height: 98px; 
+        top: 2px; 
+    left: 16px; 
+	} 
+	
+	.custom-navigation{ 
+		padding-top: 0; 
+		padding-bottom: 0; 
+	}
+
+	.custom-nav li.nav-item a.nav-link.active::after{ 
+		width: 100%; 
+	}
+
+	ul.custom-nav li.nav-item{ 
+		padding: 1.1rem 1rem; 
+	} 
+
+	.box_bottom_img{ 
+		    margin-top: -9px; 
+	} 
+
+	/* hand icon table css */ 
+ 
+	table.hand-icon-table{ 
+		position: relative; 
+	} 
+ 
+	table.hand-icon-table::after{ 
+		    content: ''; 
+    position: absolute; 
+    left: 100px; 
+    width: 75px; 
+    height: 75px; 
+    top: 34%; 
+    -webkit-transition: .2s all ease; 
+    -o-transition: .2s all ease; 
+    transition: .2s all ease; 
+    opacity: 1; 
+    background: url(../img/slide-hand-blue.png) no-repeat center center / 90%; 
+	} 
+
+	table.hand-icon-remove::after{ 
+	    opacity: 0; 
+	} 
+	 
+	.hand-icon-chart{ 
+		position: relative; 
+	} 
+	 
+	.hand-icon-chart::after{ 
+	    content: ''; 
+	    position: absolute; 
+	    left: 100px; 
+	    width: 75px; 
+	    height: 75px; 
+	    top: 34%; 
+	    -webkit-transition: .2s all ease; 
+	    -o-transition: .2s all ease; 
+	    transition: .2s all ease; 
+	    opacity: 1; 
+	    background: url(../img/slide-hand-blue.png) no-repeat center center / 90%; 
+	} 
+ 
+	.hand-icon-chart.icon-white::after{ 
+		content: ''; 
+		 background: url(../img/slide-hand-white.png) no-repeat center center / 90%; 
+		 top:15%; 
+		 left: 220px; 
+	} 
+ 
+	.hand-icon-remove::after{ 
+	    opacity: 0; 
+	} 
+ 
+ 
+ 
+	.mobilelogo img{ 
+		-webkit-transition: .2s all linear; 
+		-o-transition: .2s all linear; 
+		transition: .2s all linear; 
+	} 
+ 
+	.header-shrink .mobilelogo img{ 
+		max-width: 110px; 
+	} 
+ 
+ 
+ 
+ 
+	.page-common-section.oncology-section .container.py-5.draw-green{ 
+		position: relative; 
+    border-left: none; 
+    padding: 48px 15px 30px 30px; 
+	} 
+ 
+	.page-common-section.oncology-section .container.py-5.draw-green .program_services_sec > .pr-lg-5.col-lg-6{	 
+		    padding-left: 45px; 
+	} 
+ 
+	.oncology-section .container.draw-green::after{ 
+		border: none; 
+	} 
+ 
+	 
+	 
+ 
+	/* table hand icon setting */ 
+ 
+	section.page-common-section.adverse-event .table-responsive-sm.custom-table:focus{ 
+		background: red !important; 
+	} 
+ 
+ 
+	/* table scroll setting */ 
+ 
+	html, body{ 
+		overflow-x: hidden; 
+	} 
+ 
+	.number_at_rist_sec_mob .number_box{ 
+		overflow-y: initial; 
+		display: table; 
+	} 
+ 
+	.mobile-chart-crawler{ 
+		overflow-x: scroll; 
+		padding-left: 0; 
+		margin-left: 15px; 
+	} 
+ 
+	.chart_right_sec{ 
+		overflow-y: visible; 
+	} 
+ 
+	.program_services_sec .download_now_btn{ 
+		display: -webkit-box; 
+		display: -ms-flexbox; 
+		display: flex; 
+    -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+            justify-content: center; 
+    max-width: 250px; 
+    margin-left: auto; 
+    margin-right: auto; 
+	} 
+ 
+ 
+ 
+	.bottom-step-section h4{ 
+		line-height: 1.4; 
+	} 
+ 
+	.overall-servival .risk_of_death_present.overall_all_present{ 
+		margin-top: 30px; 
+	} 
+ 
+	.bottom-step-section h4 span{ 
+		display: block; 
+		font-weight: normal; 
+		text-transform: none; 
+	} 
+ 
+	.slider-mobile-only .step-2 .white-block{ 
+		background: white !important; 
+	} 
+
+
+	.custom-zoom-modal .close{
+		top: -45px;
+	    right:0
+	}
+
+	/* hand icon table css */
+
+	table.hand-icon-table{
+		position: relative;
+	}
+
+	table.hand-icon-table::after{
+		    content: '';
+    position: absolute;
+    left: 100px;
+    width: 75px;
+    height: 75px;
+    top: 34%;
+    -webkit-transition: .2s all ease;
+    -o-transition: .2s all ease;
+    transition: .2s all ease;
+    opacity: 1;
+    background: url(../img/slide-hand-blue.png) no-repeat center center / 90%;
+	}
+
+	table.hand-icon-remove::after{
+	    opacity: 0;
+	}
+	
+	.hand-icon-chart{
+		position: relative;
+	}
+	
+	.hand-icon-chart::after{
+	    content: '';
+	    position: absolute;
+	    left: 100px;
+	    width: 75px;
+	    height: 75px;
+	    top: 34%;
+	    -webkit-transition: .2s all ease;
+	    -o-transition: .2s all ease;
+	    transition: .2s all ease;
+	    opacity: 1;
+	    background: url(../img/slide-hand-blue.png) no-repeat center center / 90%;
+	}
+
+	.mobilelogo img{
+		-webkit-transition: .2s all linear;
+		-o-transition: .2s all linear;
+		transition: .2s all linear;
+	}
+
+	.header-shrink .mobilelogo img{
+		max-width: 110px;
+	}
+
+	.hand-icon-chart.icon-white::after{
+		content: '';
+		 background: url(../img/slide-hand-white.png) no-repeat center center / 90%;
+		 top:15%;
+		 left: 220px;
+	}
+
+	.hand-icon-remove::after{
+	    opacity: 0;
+	}
+
+	.custom-navigation{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	ul.custom-nav li.nav-item{
+		padding: 1.1rem 1rem;
+	}
+
+
+
+	.subheading-section .risk_of_death_sec .subheading-left-section p.text-lighter{
+		    margin-bottom: 0rem;
+		    margin-top: 0rem;
+	} 
+
+	.subheading-section .risk_of_death_sec .subheading-left-section p.text-lighter:last-of-type{
+		margin-bottom: 1rem;
+	}
+	.overall-servival .chart_download{
+	    /* position: absolute;
+	    right: 20px;
+	    top: 0; */
+	}
+
+	.number_at_rist_sec {
+		margin-bottom: 30px;
+	}
+
+	.overall_chart_sec p.chart-content-small{
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.number_at_rist_sec{
+		position: initial;
+	}
+
+	.step-3 .steps span{
+		color: white;
+	}
+
+	.custom-nav li.nav-item a.nav-link{
+		white-space: nowrap;
+	}
+
+	.list-modified li{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	.list-modified li span{
+		margin-right: .2rem;
+	}
+
+	section.page-common-section.adverse-event .table-responsive-sm.custom-table td{
+		white-space: nowrap;
+	}
+
+	.program_services_sec p.service_text{
+		color: #585858;
+	}
+
+	.recommed_para p a{
+		white-space: nowrap;
+	}
+
+	.adverse-event .table-responsive-sm.custom-table{
+		overflow: visible;
+	}
+
+	.response-chart-else .left-chart-response, .response-chart-else .right-chart-response{
+		max-width: 100%;
+		width: 100%;
+		float: none;
+		padding: 2rem 0rem 0rem 0rem;
+	}
+
+	.response-chart-else h5{
+    		margin: auto;
+	}
+
+	.response-chart-else .progressbar{
+		margin-left: 2rem;
+	}
+
+	.response-chart-else .left-chart-response::before{
+		display: none;
+	}
+
+
+	.response-chart-else .response-chart-header{
+		background: #0D2240;
+		    border-radius: 10px 10px 0 0;
+		    width: 100%;
+		    text-align: center
+	}
+
+	.response-chart-else .keytruda_plat_text:after{
+		display: none;
+	}
+		
+
+	.response-chart-else .response-chart-header h3{
+		color: #fff;
+	    font-size: 16px;
+        max-height: 65px;
+	    margin: 0;
+	    width: 100%;
+	    padding: 15px 10px;
+	}
+
+	    
+
+	.left-gray p{
+		text-align: left;
+	}
+
+	.seperate-death-present .present_box{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		    -webkit-box-align: center;
+		        -ms-flex-align: center;
+		            align-items: center;
+        padding: .5rem 1rem;
+	}
+
+	.overall_chart_sec .secondary-page-header{
+		text-align: left !important;
+	}
+
+	.seperate-death-present .present_box img{
+		width: 20px;
+	}
+
+	.seperate-death-present .present_box span{
+		color: white;
+	}
+
+	.seperate-death-present .present_box h3{
+		padding-left: .5rem;
+		font-size: 27px;
+		padding-right: 0.5rem;
+	}
+
+	.slider-mobile-only .step-2 .common-text-block,
+	.slider-mobile-only .step-2 .white-block,
+	p.sec_end_sub{
+		text-align: center;
+	}
+
+	.study_service_content p{
+		color: #585858;
+	}
+
+
+
+
+
+	.risk_of_death_sec .subheading-left-section p.text-lighter{
+		margin-bottom: 1rem;
+	}
+
+	.risk_of_death_sec .risk_of_death_present.d-m-block{
+		top: 0;
+	}
+
+	/* .program_services_sec{
+	padding-left: 43px;
+    padding-top: 6px;
+	} */
+
+	.d-m-block{
+		display: block !important;
+	}
+
+	.d-m-none{
+		display: none !important;
+	}
+
+	.oncology-section .container.draw-green::after{
+		display: none;
+	}
+
+	.keynote .mt-ipad-setting{
+		padding-left: 2rem;
+	}
+
+	.keynote .mt-ipad-setting .table-responsive-sm.custom-table{
+		   max-width: 494px;
+    width: auto;
+    overflow-x: scroll;
+    min-height: 99px;
+    overflow-y: hidden;
+	}
+
+	.keynote .mt-ipad-setting .table-responsive-sm.custom-table td, .keynote .mt-ipad-setting .table-responsive-sm.custom-table th{
+		white-space: nowrap;
+	}
+	.Expanding .col-lg-6 + .col-lg-6 > .left-gray{
+		margin-top: 1rem;
+	}
+
+	.chart_detail_img img{
+		max-width:767px;
+		/* object-fit: cover; */
+	}
+
+	/* pulsating circle */
+	.pulsating-circle{
+		display: block;
+	}
+
+	.number_at_rist_sec{
+		display: block;
+		margin-top: 1rem;
+	}
+	.risk_of_death_present.campare_sec_present_button{
+		display: block;
+	}
+
+	/* border removed here for whole page */
+	.container[class*="draw"], .background-properties .container.draw-white::before{
+		border: block !important;
+	}
+
+	.subheading-right-section p{
+		font-size: 14px;
+	}
+
+	.banner-section-listing{
+		padding-left: 0;
+	}
+
+	.banner-message{
+		padding: 1rem;
+	}
+		
+	/* .desktop-only, .desktop-only-flex{ */
+		/* display: none !important; */
+	/* } */
+	ul.navbar-nav.custom-nav.desktop-only-flex {
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+        -ms-flex-direction: inherit;
+            flex-direction: inherit;
+	 padding: 0;
+}
+
+	.mobile-ipad-only{
+		display: block !important;
+	}
+
+	.mobile-ipad-only-flex{
+		display: none !important;
+	}
+
+	/* .custom-navigation{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	} */
+
+	.top-header ul{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: center;
+		padding: .3rem 10px .5rem 10px;
+	}
+
+	nav.custom-navbar{
+		padding-right: 0;
+		/* overflow: scroll; */
+	}
+	
+
+	.top-header ul li a{
+		font-size: 14px;
+	}
+
+	.top-header ul li:first-child{
+		text-align: left;
+		margin: 0;
+		padding-right: 5px;
+	}
+
+	.top-header ul li:last-child{
+		text-align: right;
+		margin: 0;
+		padding-left: 5px;
+	}
+
+	.main-body{
+		padding-top: 136px;
+	}
+
+
+	/* slider css for mobile */
+
+	/* .container.draw-green h2.common-page-heading::before, .container.draw-green h2.section-header::before{ */
+		/* border: none; */
+	/* } */
+
+	.slick-prev{
+		left: 0;
+	}
+
+	.slick-next{
+		right: 0;
+	}
+
+	.custom-message-box p{
+		margin-bottom: 0;
+	}
+	.custom-message-box{
+		padding: .8rem 1rem .8rem 1rem;
+	}
+
+	.slick-dotted.slick-slider{
+		margin-bottom: 0;
+	}
+
+	/* slider css ends here */
+
+	/* footer css */
+
+	/* .footer .footer-links li{ */
+		/* display: inline-block; */
+		/* width: 100%; */
+		/* padding: .8rem 0rem 0rem 0rem; */
+	/* } */
+
+	/* .footer .footer-links li a{ */
+		/* padding: 0rem !important; */
+		/* border: none; */
+	/* } */
+} 
+
+@media (min-width: 768px){
+	.desktop-only{
+		display: block !important;
+	}
+
+	.desktop-only-flex{
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+
+	.mobile-ipad-only, .mobile-ipad-only-flex{
+		display: none !important;
+	}
+
+	/* bootstrap scrollspy style */
+	
+	.custom-nav .nav-link.active::after{
+	    width: 100% !important;
+	}
+
+	main.main-body{
+		padding-top: 126px;
+	}
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 766px){
+
+	.step-3 .steps h5{
+		color: white;
+	}
+
+	.steps span{
+		background: none;
+	}
+
+	/* line animation positioning settings */
+
+	section.page-common-section.adverse-event .container.py-5.draw-green:before,
+	section.page-common-section.w-100.keynote .container.py-5.draw-green:before,
+	.baseline-section.background-properties .container.draw-green:before,
+	section.page-common-section.overall-servival .container.draw-green:before,
+	section.page-common-section.view-merck .container.draw-white:before,
+	section.page-common-section.recommended-dose .container.draw-green.recom_contain:before,
+	.page-common-section.oncology-section .container.py-5.draw-green:before,
+	section.page-common-section.w-100.Expanding .container.py-5.draw-green:before{
+		left: 0;
+	}
+	
+
+	/* line or pulse */
+	.container.draw-green h2.common-page-heading::before, .container.draw-green h2.section-header::before{
+		    left: -57px;
+	}
+
+	/* pulsating circle position */
+
+	.container.draw-green .pulsating-circle{
+		left: -41px;
+	}
+
+	.efficacy.background-properties .container.draw-white .pulsating-circle,
+	.safety.background-properties .container.draw-white .pulsating-circle,
+	.dosing.background-properties .container.draw-white .pulsating-circle,
+	.safety.background-properties .container.draw-white .pulsating-circle
+	{
+		    left: -54px;
+	}
+
+	.two-stepper-holder{
+		margin-top: 1rem;
+	}
+
+	.program_services_sec .download_now_btn{
+		display: block;
+		text-align: center;
+	}
+
+	.dosing.background-properties .container.draw-white .pulsating-circle,
+	.merck-care.background-properties .container.draw-white .pulsating-circle{
+		left: -44px;
+	}
+
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px){
+
+	.response-chart-white .left-chart-response{
+		padding-left: 0;
+		position: relative;
+	}
+
+	.number_box table{
+		width: 450px;
+		overflow: auto;
+	}
+
+	.link-grabber{ 
+		height: 75px; 
+	} 
+
+	.program_services_sec .col-md-6.col-12:last-of-type{ 
+		max-width: calc(100% + 74px); 
+    -ms-flex-preferred-size: calc(100% + 15px); 
+        flex-basis: calc(100% + 15px); 
+    left: calc(-15px); 
+	}  
+
+	.number_at_rist_sec_mob .number_box table{ 
+		width: 450px; 
+	} 
+	.mobilelogo img{ 
+		max-width: 160px; 
+	} 
+ 
+	.banner-section{ 
+		padding: 150px 0 0; 
+	} 
+ 
+	.baseline_table tr > th:nth-child(2), 
+	.baseline_table tr > td:nth-child(2), 
+	.baseline_table tr > th:nth-child(3), 
+	.baseline_table tr > td:nth-child(3){ 
+		max-width: 75px; 
+	} 
+
+	.response-chart-white .plat_pem_sec{
+		z-index: 2;
+	}
+	.response-chart-white .left-chart-response:before{
+		left: 50%;
+		right: initial;
+		z-index: 0;
+	}
+
+	.response-chart-white .container-fluid{
+		position: relative;
+	}
+
+	.response-chart-white .right-chart-response{
+		padding-right: 0;
+	}
+
+	/* .footer-listing-mobile-setting{
+	    width: 114%;
+	    left: -14%;
+	    position: relative;
+	} */
+
+	.footer-listing-mobile-setting .button-primary{
+	    padding: .7rem 1rem;
+	    display: block;
+	    text-align: center;
+	}
+
+	.footer_contact_us ul li a{
+		font-size: 13px;
+	}
+
+	/* .merck_cana_text{
+	    width: 114%;
+    	left: -14%;
+    	position: relative;
+	}
+ */
+	.footer-listing-mobile-setting .button-primary img{
+		margin-left:  10px;
+	}
+
+	.footer .footer-links li a{
+		font-weight: 400;
+		line-height: 30px;
+	}
+
+	/* .left-chart-response::before{
+		height: 110%;
+	}
+ */
+	.top-redirect-arrow{
+		top: initial;
+		border: 0;
+	    right: 20px;
+	    position: fixed;
+	    z-index: 999;
+	    bottom: 20px;
+	}
+
+	
+	
+/* 	.slider-mobile-only .left-step-section{
+		display: none;
+	} */
+
+	.study_service_content {
+	    padding-left: 30px;
+	}
+
+	.row.program_services_sec > div.col-md-6:first-of-type{
+		padding-left: 3.5rem;
+	}
+
+.custom-nav li.nav-item a.nav-link{
+	white-space: nowrap;
+}
+	
+	.baseline-section{
+		background-image: none;
+		background: #EFF0F1;
+	}
+	
+	.baseline-section{
+
+	}
+
+	.button-white{
+		padding: .8rem 1rem;
+	}
+
+	.right-step-section .secondary-page-header{
+		text-align: center;
+	}
+	.steps span{
+	background: transparent;
+	}
+
+	.step-3 .steps span{
+		color: white;
+	}
+
+	.custom-message-box .slick-slide p{
+		text-align: center;
+	}
+
+
+	.combin_therapy img{ 
+		    margin-right: 10px; 
+    max-width: 17px; 
+	} 
+ 
+	.patient .custom-message-box .slick-slide p{ 
+		text-align: left; 
+	} 
+
+
+	/* mobile slider css */
+	.step-3 .steps h5{
+		color: white;
+	}
+
+	.combin_therapy{ 
+		padding: 15px 10px; 
+	}
+
+	.step-3 .top-step-section{
+		padding-bottom: 1rem;
+	}
+	.step-3 .bottom-step-section{
+		padding-top: 1rem;
+	}
+	.slider-mobile-only .step-1-list{
+		text-align: center;
+	}
+
+	.slider-mobile-only .step-1{
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+
+	.slider-mobile-only .step-3{
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+
+	.two-stepper-holder{
+		background: #E3E5E7;
+		width: 90%;
+		margin: auto;
+		padding-top: 3rem;
+		padding-bottom: 1rem;
+	}
+
+	.slider-mobile-only div[class^="step"]{
+		width:  95%;
+	}
+
+	.slider-mobile-only .step-3{
+		width: 90% !important;
+	}
+
+	.slider-mobile-only .step-m-1{
+		position: relative;
+	}
+
+	.slider-mobile-only .step-m-1::after{
+		    content: '';
+	    position: absolute;
+	    bottom: 0;
+	    background: url(../img/arrow-d.png) no-repeat center center / cover;
+	    width: 50px;
+	    height: 50px;
+	    left: 50%;
+	    -webkit-transform: translate(-50%, 50%);
+	        -ms-transform: translate(-50%, 50%);
+	            transform: translate(-50%, 50%);
+	}
+	
+
+
+	/*===================================
+	page theme style settings
+	=====================================*/
+
+	/* stepper for mobile */
+
+
+	/* service block */
+
+	.service-block + .service-block{
+		margin-top: 2rem;
+	}
+
+	/* response chart section settings */
+
+	.response-chart-holder{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.response-chart-holder > div + div{
+		margin-top: 1rem;
+	}
+
+	.response-chart-holder .col-auto{
+		display: none !important;
+	}
+
+	.reduction-block{
+		margin-top: 1rem;
+	}
+
+	.rate-column{
+		margin-bottom: 1rem;
+	}
+
+
+	/*oncology section */
+
+	.custom-list-group li.list-group-item{
+		padding-left: .8rem;
+		padding-right: .5rem;
+		font-size: 93%;
+	}
+
+
+	
+
+	/*===============================================
+	seperate large moudles on mobile
+	===============================================*/
+
+
+	/* banner css for mobile */
+
+	.banner-message{
+		padding: 1rem;
+	}
+
+	.banner-message .banner-heading{
+		font-size: 28px;
+		margin-bottom: 1rem;
+	}
+
+	/* banners uls */
+
+	.section-content-holder .content-right .banner-section-listing{
+		padding-left: 0;
+	}
+
+	/* top header */
+	
+	.top-header ul li a{
+		font-size: 13px;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+	
+	/* margin top for ipad only */
+
+	.reduction-block{
+		margin-top: 1rem;
+	}
+
+	.rate-column{
+		margin-bottom: 1rem;
+	}
+
+
+}
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){
+	.step-2 .left-step-section{
+		margin-bottom: 15px;
+	}
+	.right-step-section.pl-lg-4.pl-md-0 {
+	    padding-left: 15px !important;
+	}
+	.steps-header span.line{
+	    width: 135%;
+	    top: 15%;
+	    left: 50%;
+	}
+
+	.mt-ipad-setting{ 
+		/* margin-top: 2rem; */
+	}
+
+	.banner-section-listing{
+		padding-left: 0;
+	}
+
+	.footer .footer-links li a{
+		font-size: 12.7px;
+		padding-left: .3rem;
+		padding-right: .3rem;
+	}
+
+	/* stepper settings for ipad devices */
+
+
+	.stepper-ui .step-2{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.step-2 .right-step-section{
+		-ms-flex-preferred-size: 100%;
+		    flex-basis: 100%;
+	}
+	
+	.step-2 .common-text-block{
+		padding: 1rem 1rem;
+	    font-size: 13px;
+	    border-radius: 20px;
+	}
+
+	.step-2, .steps-header .steps{
+		-ms-flex-preferred-size: 55%;
+		    flex-basis: 55%;
+	}
+
+	.step-1, .step-3, .steps-header .steps:first-of-type, .steps-header .steps:last-of-type{
+		-ms-flex-preferred-size: 27.5%;
+		    flex-basis: 27.5%;
+	}
+
+	.step-1-list li{
+		font-size: 16px;
+	}
+
+	.banner-message{
+		padding: 1rem;
+	}
+
+	/* container line fix */
+
+	.container[class*="draw"]{
+		padding-left: 3.1rem;
+	    margin-left: 1.2rem;
+	}
+
+	/* navigation fixes */
+
+	.custom-nav li.nav-item a.nav-link{
+		font-size: 13.5px;
+	}
+
+	nav.custom-navbar{
+		padding-right: 0;
+	}
+
+	ul.custom-nav li.nav-item{
+		padding: 0rem .5rem;
+	}
+
+	ul.custom-nav li.nav-item span img{
+		height: 20px;
+	}
+
+	ul.chart_bottom_list li:nth-child(2) {
+		margin-left: 12px !important;
+	  }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.steps-header span.line{
+	    width: 132%;
+	    top: 20%;
+	    left: 50%;
+	}
+
+	.banner-section-listing{
+		padding-left: 0;
+	}
+
+	.footer .footer-links li a{
+		font-size: 12.7px;
+		padding-left: .3rem;
+		padding-right: .3rem;
+	}
+
+	/* stepper settings for ipad devices */
+
+/*	.step-2 .left-step-section{
+		display: none;
+	}*/
+
+	.step-2 .right-step-section{
+		-ms-flex-preferred-size: 100%;
+		    flex-basis: 100%;
+	}
+	
+	.step-2 .common-text-block{
+		padding: 1rem 1rem;
+	    font-size: 13px;
+	    border-radius: 20px;
+	}
+
+	.step-2, .steps-header .steps{
+		-ms-flex-preferred-size: 55%;
+		    flex-basis: 55%;
+	}
+
+	.step-1, .step-3, .steps-header .steps:first-of-type, .steps-header .steps:last-of-type{
+		-ms-flex-preferred-size: 27.5%;
+		    flex-basis: 27.5%;
+	}
+
+	.step-1-list li{
+		font-size: 16px;
+	}
+
+	.banner-message{
+		padding: 1rem;
+	}
+
+	/* container line fix */
+
+	.container[class*="draw"]{
+		padding-left: 3.1rem;
+	    margin-left: 1.2rem;
+	}
+
+	/* navigation fixes */
+
+	.custom-nav li.nav-item a.nav-link{
+		font-size: 13.5px;
+	}
+
+	nav.custom-navbar{
+		padding-right: 0;
+	}
+
+	ul.custom-nav li.nav-item{
+		padding: 0rem .5rem;
+	}
+
+	ul.custom-nav li.nav-item span img{
+		height: 20px;
+	}
+	.fr_present_box.present_box h3 next,
+	.present_box{
+		padding: 0;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.step-2 .left-step-section .disply-on-large-desktop{
+		display: inline-block;
+	}
+	.step-2 .left-step-section .disply-on-desktop{
+		display: none;
+	}
+	
+	.banner-message{
+		padding: 3rem;
+	}
+
+	.footer p{
+		text-align: justify;
+		
+	}
+
+	.under-accord-sec p{
+		margin-bottom: .2rem;
+	}
+
+	.under-accord-sec p:last-of-type{
+		margin-bottom: 1rem;
+	}
+
+	/* Bootstrap Overwrides */
+
+	.container{
+		max-width: 1170px;
+		padding-left: 50px;
+	}
+
+	.patient .container{
+		padding-right: 50px;
+	}
+
+	/* bootstrap overwrides ends here */
+	
+}
+
+
+/*===============================================
+other quieries
+================================================*/
+
+@media only screen and (min-width: 1350px){ 
+	.container{ 
+		max-width: 1310px !important; 
+	} 
+
+	.expanding-heading{
+		font-size: 20px;
+	}
+
+	.recurrence-block h2 img{
+		    margin-right: 10px;
+		    max-height: 24px;
+	}
+ 
+	ul.custom-nav li.nav-item{ 
+	    padding: 0rem 2rem; 
+	} 
+
+	.reduction-block h2{
+		font-size: 30px;
+	}
+
+	.reduction-block h2 span {
+	    font-size: 15px;
+	        line-height: 1.6;
+	    margin-left: 15px;
+	}
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 992px){ 
+ 
+	/* button.mobile_scroll_btn{ 
+		position: absolute; 
+    top: 0; 
+    right: -22px; 
+    background: linear-gradient(272.36deg, rgba(13, 34, 64, 0.6) 9.22%, rgba(13, 34, 64, 0.3) 148%); 
+    border: none; 
+    height: 100%; 
+    display: inline-block; 
+    width: 22px; 
+	}  */
+ 
+	.custom-nav li.nav-item a.nav-link{ 
+		white-space: nowrap; 
+	} 
+
+	.custom-nav li.nav-item a.nav-link{ 
+		font-size: 11.5px; 
+	} 
+ 
+	
+ 
+	/* .navbar-expand-md .navbar-nav{ 
+		overflow-x: scroll; 
+		overflow-y: hidden;	 
+	} */ 
+ 
+	ul.custom-nav { 
+		padding-top: 1.1rem; 
+		padding-bottom: 1.1rem; 
+	}	 
+     
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){ 
+	ul.custom-nav li.nav-item{ 
+		padding: 0rem .0rem; 
+	} 
+	}
+
+
+/* iphone x media query */ 
+ 
+@media only screen  
+and (min-device-width : 375px)  
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3){ 
+	.mobilelogo{ 
+		margin-top: 40px; 
+	} 
+} 
+ 
+@media only screen and (min-width: 570px) and (max-width: 767px){ 
+	section.page-common-section.w-100.patient .container.py-5.draw-green:before{ 
+		    content: ""; 
+    position: absolute; 
+    border-left: 2px dotted #4CA44D; 
+    left: 20px; 
+    height: 100%; 
+    top: 0; 
+	} 
+ 
+	.number_at_rist_sec_mob .number_box{ 
+		    display: table; 
+		    width: 100%; 
+	} 
+ 
+	.custom-nav li.nav-item a.nav-link{ 
+		white-space: nowrap; 
+	} 
+ 
+	.background-properties .container.draw-white::before{ 
+		left: 20px; 
+	} 
+ 
+	.keytruda-experience .container.draw-white .pulsating-circle{ 
+		    left: 12px; 
+	} 
+ 
+	.step-3 .steps h5 { 
+	    color: white; 
+	} 
+ 
+	.step-3 .steps span { 
+    	color: white; 
+    	background: transparent; 
+	} 
+ 
+	 
+} 
+
+@media only screen and (max-width: 376px){ 
+	li.french-button{ 
+	    position: absolute; 
+	    right: 30px; 
+	    top: -35px; 
+	} 
+ 
+	.mobilelogo{ 
+		text-align: center; 
+	} 
+} 
+ 
+@media only screen and (max-width:328px){ 
+	.top-header ul li a{ 
+		font-size: 12px; 
+	} 
+} 
+ 
+@media only screen and (orientation: landscape) and (max-width: 767px){ 
+	.scroller-fixed-height{	   
+	  top: calc(85vh - 25px) !important;  
+	} 
+} 
+
+@media only screen and (min-width: 768px){
+	.reduction-block-only-mobile{
+	  display: none !important;
+	}
+}
+
+@media only screen and (max-width: 767px){
+
+	.reduction-block-only-mobile{
+		display: block !important;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	.keynote .response_detail_list ul{
+		margin-top: 0px;
+	}
+
+	.baseline-section table.hand-icon-table{
+	    overflow: hidden;
+    	border-radius: 20px;
+	}
+
+	.overall-servival .chart_download{
+	    margin-top: 0;
+		margin-bottom: 2rem;
+		padding-left: 15px;
+	}
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1350px){ 
+	.chart_code_text{ 
+		bottom: 53px; 
+	} 
+} 
+
+@media only screen and (min-width: 770px) and (max-width: 1200px){
+	.oncology-section .container.draw-green::after{
+		height: 67px;
+	}
+
+	.response-chart-holder .left-chart-response {
+		padding-left: 0;
+	}
+
+	.vs_text span.object_text{
+		    margin-left: -18px;
+    		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.step-2 {
+		flex-direction: column;
+	}
+	.step-2 .left-step-section .disply-on-large-desktop{
+		display: none;
+	}
+	.step-2 .left-step-section .disply-on-desktop{
+		display: inline-block;
+	}
+	.step-2 .left-step-section{
+		display: block;
+		margin-bottom: 2rem;
+	}
+}
+
+@media only screen and (max-width: 420px){
+	.button-primary{
+		    padding: .8rem 1rem;
+	}
+
+	#termuse-popup .modal-header h4{
+		    padding: 15px 50px 15px 15px;
+	}
+
+}
+@media only screen and (max-width: 420px) and (min-width: 360px){
+	.custom-list-group .list-group-item:first-child{
+		padding-right: 110px !important;
+	}
+}
+
+/* other quiries for chart fixes */
+
+@media only screen and (max-width: 1360px) and (min-width: 1201px){
+	.chart_code_text{
+		bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+	.chart_detail_img img{
+		max-width: 96%;
+	}
+
+	.chart_code_text {
+		bottom: 54px;
+	}
+
+	.risk_of_death_present{
+		text-align: center;
+	}
+
+/*	.risk_of_death_present{
+		top: -133px;
+	}*/
+
+	.text-fixer {
+	    max-width: 230px;
+	    margin: auto;
+	}
+
+	.progression-section .text-fixer{
+		max-width: 250px;
+	}
+
+	.progression-section .risk_of_death_present{
+		top: -117px;
+	}
+
+	/* contianer changes */
+
+	.overall-servival > .container,
+	.progression-section > .container,
+	.objective-response > .container,
+	.keynote > .container,
+	.patient > .container,
+	.adverse-event > .container,
+	.recommended-dose > .container,
+	.oncology-section > .container{
+		max-width: 90%;
+	}
+
+	.main_service_div .study_service_content{
+		-ms-flex-preferred-size: 50%;
+		    flex-basis: 50%;
+		max-width: 50%;
+	}
+
+	.objective-response .offset-lg-1{
+		margin-left: 0%;
+	}
+
+	.overall-servival .offset-lg-1,
+	.progression-section .offset-lg-1{
+		margin-left: 5%;
+	}
+
+	.objective-response .col-lg-5{
+		-ms-flex-preferred-size: 50%;
+		    flex-basis: 50%;
+		max-width: 50%;
+	}
+
+	.overall-servival .col-lg-5,
+	.progression-section .col-lg-5{
+		-ms-flex-preferred-size: 45%;
+		    flex-basis: 45%;
+		max-width: 45%;
+	}
+
+	ul.custom-nav li.nav-item{
+		padding: 0rem;
+	}
+
+	ul.chart_bottom_list li{
+		margin-left: 7.4%;
+	}
+
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 993px){
+	/*.risk_of_death_present, .progression-section .risk_of_death_present{
+		right: -30px;
+	}*/
+
+	.chart_code_text{
+		bottom: 30px;
+	}
+
+	.overall-servival .chart_download{
+		right: -40px;
+	}
+}
+
+@media only screen and (max-width: 1360px) and (min-width: 1200px){
+	.chart_detail_img img{
+		max-width: 100% !important;
+	}
+
+	.text-fixer{
+		max-width: 250px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 1200px) {
+	ul.chart_bottom_list li:nth-child(2){
+		margin-left: 8px;
+	}
+
+	ul.chart_bottom_list li{
+		margin-left: 44px;
+	}
+
+	.number_box table tr.number_at_risk_row1{
+		grid-template-columns: 87px 55px 56px 56px 62px 64px 61px 63px auto;
+	}
+	.number_box table tr.number_at_risk_row2{
+		grid-template-columns: 87px 55px 56px 56px 62px 64px 61px 63px auto;
+	}
+}
+
+@media (min-width: 1100px) and (max-width: 1199px){
+	.number_box table tr.number_at_risk_row1{
+		grid-template-columns: 73px 47px 46px 47px 52px 57px 51px 57px auto;
+	}
+	.number_box table tr.number_at_risk_row2{
+		grid-template-columns: 73px 47px 46px 47px 52px 57px 51px 57px auto;
+	}
+}
+@media (max-width: 768px) and (min-width:767px){
+	button.mobile_scroll_btn {
+	    display: block;
+	}
+	nav.custom-navbar{
+		padding-left: 15px;
+	}
+	.custom-nav li.nav-item a.nav-link{
+		display:flex;
+	}
+
+}
